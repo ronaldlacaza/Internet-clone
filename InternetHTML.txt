@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="The Internet">
+        <link rel="stylesheet" type="text/css" href="Internet.css">
+        <title>The Internet</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <img class="globe" src="globe.png" alt=""><span class="the">The Internet</span><span class="net">net</span>
+            <h2 class="world">The World Wide Web</h2>
+            <div class="main_content"> 
+                <div class="sub_main_content1">
+                    <h1>So, what's an <span class="internet">Internet</span></h1>
+                    <h3>An <span class="inter">Inter</span>connected <span class="inter">Net</span>work of computers all around the world!</h3>
+                    <form>
+                        <input class="watch" type="submit" value="WATCH A VIDEO">
+                        <input class="more" type="submit" value="MORE RESOURCES">
+                    </form>
+                    <div class="back_picture" style="background-image: url('ad_background.png');">
+                        <h1 class="career">Reinvent your career in just 14 weeks</h1>
+                        <img class="ninja" src="ninja.png" alt="">
+                        <input class="learn" type="submit" value="Learn more>>>">
+                    </div>
+                </div>
+                <div class="sub_main_content2">
+                    <div class="sub_main1">
+                        <img class="home" src="home.png" alt=""><span class="dns">DNS</span>
+                        <img class="phone" src="phone.png" alt="">
+                        <div class="nav">
+                            <h1 class="mon">Mon - Fri 9 a.m - 5 p.m (EST)</h1>
+                            <h2 class="num">855.967.3787</h2>
+                            <h1 class="international">International + 1.617.963.0555</h1>
+                        </div>
+                    </div>
+                    <div class="sub_main2">
+                        <h1 class="client"> Clients and Servers</h1>
+                        <p class="com">Computer connected to the <span class="site">Web</span> are called <span class="clients">clients</span> and <span class="clients">servers.</span></p>
+                        <ul>
+                            <li><span class="site">Clients</span>are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your mobile network) and <span class="site">Web-accessing software</span>available on those devices (usually a web browser like Firefox or Chrome).</li>
+                            <li><span class="site">Servers</span>are computers that store <span class="site">webpages</span>, <span class="site">sites</span>, or <span class="site">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                        </ul>
+                        <img class="server" src="client_server.jpg" alt="">
+                        <h1 class="client">So What Actually Happens?</h1>
+                        <ol>    
+                            <li>The browser goes to the <span class="site">DNS server</span> and finds the real address of the <span class="site">Server</span>that the websites lives on.</li>
+                            <li>The browser se  nds an <span class="site">HTTP request</span>message to the server asking it to send a copy of the website to the client.</li>
+                            <li>If the server approves the client's request, the server sends the client a <span class="site">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's file to the browser as a series of small chunks.</li>
+                            <li>The browser assembles the small chunks into a complete website and display it to you!</li>
+                        </ol>
+                        <div class="sub_main3">
+                            <img class="html" src="html.png" alt="">
+                            <div class="sub">
+                                <h1 class="client">The Big 3 - HTML, CSS, Javascript</h1>
+                                <p class="com">While the server can process information in many different languages, the file that they serve to the client are <span class="always">always</span>going to be some combination of HTML, CSS, and JavaScript</p>
+                                <p class="com">Learn more about the Big 3 <span class="here">here</span>!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
